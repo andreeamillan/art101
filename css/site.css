@@ -3,6 +3,16 @@
 /* you can pick your own background colors, text colors, and fonts */
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
+#my-portrait {
+  width: 200px;
+}
+
+img {
+  width: 250px;
+  height: 300px;
+
+}
+
 body {
   background-color: #be93ac;
 }
@@ -32,5 +42,5 @@ h1 {
   padding: 10px;
   margin-bottom: 10px;
   border: solid 3px #ffffff;
-  background-color: #dbf7ae;
+  background-color: #e5ffbc;
 }
