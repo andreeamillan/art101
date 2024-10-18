@@ -19,6 +19,7 @@ function main() {
 
 // let's get this party started
 main();
+//Start
 // Assign a player input box, which they can only choose rock paper or scissors
 // Make a randomizer to have the ai choose any element
 // Accept Player input
