@@ -3,6 +3,8 @@
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 img { 
     border-radius: 8px;
+    height: 100 px;
+    width: 25%;
 }
 
 .minor-section {
