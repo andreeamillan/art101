@@ -7,7 +7,7 @@
 make = "Lexus";
 model = "LC500";
 color = "Coldburst Gray";
-year = "2024";
+year = "2022";
 ownIt = false;
 
 // calculate

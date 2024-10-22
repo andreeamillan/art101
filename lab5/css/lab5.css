@@ -4,13 +4,13 @@
 img { 
     border-radius: 8px;
     height: 200 px;
-    width: 50%;
+    width: 25%;
 }
 
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
-    background-color: #DDD8C4;
+    background-color: #c5e9c3;
   }
 
