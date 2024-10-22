@@ -10,7 +10,7 @@ color = "Coldburst Gray";
 year = "2024";
 ownIt = false;
 
-//Calculating age
+// Calculating age
 age = 2024 - year;
 
 //output
