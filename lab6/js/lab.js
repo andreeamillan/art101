@@ -23,4 +23,6 @@ document.writeln("These are my main modes of transportation: " + myTransport + "
 document.writeln("My Main Ride: <pre>"),
   JSON.stringify(myMainRide, null, '\t'), "</pre>";
 
+document.writeln("My car is " + myMainRide.age() + "years old.");
+
 
