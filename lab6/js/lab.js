@@ -8,8 +8,8 @@ var myTransport = ["metrobus", " car"];
 // Object
 var myMainRide = {
   make: "Lexus",
-  model: "CrossTrek",
-  color: "black",
+  model: "LC500",
+  color: "Coldstone Gray",
   year: 2022,
   ownIt: true,
   age: function(){
@@ -21,7 +21,7 @@ var myMainRide = {
 document.writeln("These are my main modes of transportation: " + myTransport + "<br><br>");
 
 document.writeln("My Main Ride: <pre>"),
-  JSON.stringify(myMainRide, null, '\t'), "</pre>";
+    JSON.stringify(myMainRide, null, '\t'), "</pre>";
 
 document.writeln("My car is " + myMainRide.age() + "years old.");
 
