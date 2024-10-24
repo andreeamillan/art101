@@ -8,7 +8,7 @@ make = "Lexus";
 model = "LC500";
 color = "Coldburst Gray";
 year = "2022";
-ownIt = false;
+ownIt = true;
 
 // calculate
 age = 2024 - year;
