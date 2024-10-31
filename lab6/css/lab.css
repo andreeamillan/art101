@@ -1,12 +1,6 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-img { 
-  border-radius: 8px;
-  height: 200 px;
-  width: 20%;
-  
-}
 
 .minor-section {
     padding: 10px;

@@ -1,16 +1,24 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-img { 
-  border-radius: 8px;
-  height: 200 px;
-  width: 20%;
+body {
+  background-color: #d4f2ff;
+}
+
+h1,h2,h3 {
+  font-family: 'Times New Roman', Times, serif;
   
 }
 
+h1 {
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  font-size: 300%;
+}
+
 .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #d4b4b4;
-    background-color: #DDD8C4;
-  }
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 3px #ffffff;
+  background-color: #d5e7ed;
+}
