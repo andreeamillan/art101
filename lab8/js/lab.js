@@ -28,4 +28,4 @@ console.log("Arrays with an added value:", result);
 var mapResults = "Map results";
 console.log("Results ", mapResults);
 
-$("#output").html(mapResults); string
+$("output").html(mapResults); string
