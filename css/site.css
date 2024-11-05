@@ -14,7 +14,7 @@ img {
 }
 
 body {
-  background-color: #be93ac;
+  background-color: #a6b3ea;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
@@ -33,7 +33,7 @@ h1 {
 #content {
   margin: 10px;
   padding: 10px;
-  border: solid 4px #ffffff;
+  border: solid 8px #ffffff;
   background-color: #e6ccdc;
 }
 
@@ -42,5 +42,5 @@ h1 {
   padding: 10px;
   margin-bottom: 10px;
   border: solid 3px #ffffff;
-  background-color: #e5ffbc;
+  background-color: #e6daf4;
 }
