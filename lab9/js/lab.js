@@ -26,13 +26,12 @@ $("button-Problems").click(function() {
 //When special mode is off, initiates output
 $("#output").text("Special mode is OFF");
 
-
 // click function to toggle class special for results + displays special mode for on/off
 $("#button-results").click(function() {
     $("#results").toggleClass("special");
 
-    if($("results").hasClass("special")) {
-       $("#output").text("Special mode is ON");
+    if ($("results").hasClass("special")) {
+        $("#output").text("Special mode is ON");
     }
     else {
         $("#output").text("Special mode is OFF");
