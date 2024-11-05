@@ -17,7 +17,7 @@ p {
 
 .special {
     background-color: rgb(255, 173, 207);
-    border: dotted 60px rgb(255, 117, 211);
+    border: dotted 20px rgb(255, 117, 211);
     color: rgb(253, 216, 242);
     font-weight: bold;
 }

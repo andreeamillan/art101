@@ -9,33 +9,33 @@
 
 //Creating the buttons 
 $("#challenge").append("<button id='button-challenge'>Make Special</button>");
-$("#problems").append("<button id='button-problems'>Make Special</button>");
+$("#Problems").append("<button id='button-problems'>Make Special</button>");
 $("#results").append("<button id='button-results'>Make Special</button>");
 
-// add a click listener to the challenge button
-$("button-challenge").click(function(){
+// add a click function for toggling class special on the challenge button
+$("button-challenge").click(function() {
     $("#challenge").toggleClass("special");
 });
 
 
-//
-$("button-Problems").click(function(){
+// click function added to toggle class special for result
+$("button-Problems").click(function() {
     $("#Problems").toggleClass("special");
 });
 
 //When special mode is off, initiates output
-$("#output").text("Special mode is Off");
+$("#output").text("Special mode is OFF");
 
 
-//
-$("#button-results").click(function(){
+// click function to toggle class special for results + displays special mode for on/off
+$("#button-results").click(function() {
     $("#results").toggleClass("special");
 
     if($("results").hasClass("special")) {
-       $("#output").text("Special mode is On");
+       $("#output").text("Special mode is ON");
     }
     else {
-        $("#output").text("Special mode is Off");
+        $("#output").text("Special mode is OFF");
     }
 });
 
