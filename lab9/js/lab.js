@@ -15,6 +15,13 @@ $("#results").append("<button id='button-results'>Make Special</button>");
 // add a click function for toggling class special on the challenge button
 $("button-challenge").click(function() {
     $("#challenge").toggleClass("special");
+
+    if ($("results").hasClass("special")) {
+        $("#output").text("Special mode is ON");
+    }
+    else {
+        $("#output").text("Special mode is OFF");
+    }
 });
 
 
