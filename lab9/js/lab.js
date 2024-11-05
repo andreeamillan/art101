@@ -32,4 +32,11 @@ $("#results").append("<button id='button-results'>Make Special</button>");
 $("button-results").click(function(){
     // add/substract the special class to section
     $("#results").toggleClass("special");
+
+    if ($("#results").hasClass("special")) {
+        $("#output").text("Special mode is ON");
+    }
+    else {
+        $("#output").text("Special mode is OFF");
+    }
 });
