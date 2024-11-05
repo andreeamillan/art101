@@ -9,28 +9,21 @@
 
 //Creating the buttons 
 $("#challenge").append("<button id='button-challenge'>Make Special</button>");
+$("#problems").append("<button id='button-problems'>Make Special</button>");
+$("#results").append("<button id='button-results'>Make Special</button>");
 
-// click listener for challenge button
-$("button-challenge").click(function(){
-    // add/subtract "special" class to section
+// toggle class special for challenge button
+$("button-challenge").click(function() {
     $("#challenge").toggleClass("special");
 });
 
-//button for problem section
-$("#Problems").append("<button id='button-problems'>Make Special</button>");
-
-//click listener for problems button 
-$("button-Problems").click(function(){
-    //add / subtract special class to section
+//click function for result button 
+$("button-problems").click(function() {
     $("#problems").toggleClass("special");
 });
 
-//button for results section
-$("#results").append("<button id='button-results'>Make Special</button>");
-
-// clicl listener to results button
-$("button-results").click(function(){
-    // add/substract the special class to section
+// click listener to results button
+$("button-results").click(function() {
     $("#results").toggleClass("special");
 
     if ($("#results").hasClass("special")) {
