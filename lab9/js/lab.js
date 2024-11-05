@@ -24,6 +24,8 @@ $("#button-problems").click(function() {
 });
 
 
+$("#output").text("Special mode is OFF");
+
 // click listener to results button
 $("#button-results").click(function() {
     $("#results").toggleClass("special");
