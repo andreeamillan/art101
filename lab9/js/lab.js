@@ -9,40 +9,27 @@
 
 //Creating the buttons 
 $("#challenge").append("<button id='button-challenge'>Make Special</button>");
+
+// click listener for challenge button
+$("button-challenge").click(function(){
+    // add/subtract "special" class to section
+    $("#challenge").toggleClass("special");
+});
+
+//button for problem section
 $("#Problems").append("<button id='button-problems'>Make Special</button>");
+
+//click listener for problems button 
+$("button-Problems").click(function(){
+    //add / subtract special class to section
+    $("#problems").toggleClass("special");
+});
+
+//button for results section
 $("#results").append("<button id='button-results'>Make Special</button>");
 
-// add a click function for toggling class special on the challenge button
-$("button-challenge").click(function() {
-    $("#challenge").toggleClass("special");
-
-    if ($("results").hasClass("special")) {
-        $("#output").text("Special mode is ON");
-    }
-    else {
-        $("#output").text("Special mode is OFF");
-    }
-});
-
-
-// click function added to toggle class special for result
-$("button-Problems").click(function() {
-    $("#Problems").toggleClass("special");
-});
-
-//When special mode is off, initiates output
-$("#output").text("Special mode is OFF");
-
-
-// click function to toggle class special for results + displays special mode for on/off
-$("#button-results").click(function() {
+// clicl listener to results button
+$("button-results").click(function(){
+    // add/substract the special class to section
     $("#results").toggleClass("special");
-
-    if ($("results").hasClass("special")) {
-        $("#output").text("Special mode is ON");
-    }
-    else {
-        $("#output").text("Special mode is OFF");
-    }
 });
-
