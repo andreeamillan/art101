@@ -24,7 +24,7 @@ $("#make-convo").click(function(){
 });
 
 //acquiring new fake dialogue
-const newText = generateRandomText();
+    const newText = generateRandomText();
 
 //appending new div to our output div
 $("#output").append('<div class="text"><p>' + newText + '</p></div>');
