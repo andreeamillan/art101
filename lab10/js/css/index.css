@@ -1,3 +1,20 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #d4b4b4;
+    background-color: #feebfb;
+  }
+
+body {
+    background-color: rgb(150, 144, 187);
+  }
+h2 {
+    color: rgb(81, 99, 155);
+  }
+p {
+    color: rgb(0, 0, 0);
+  }
+
 .text p {
   display: inline-block;
   max-width: 60%;
