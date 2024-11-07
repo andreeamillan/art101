@@ -4,24 +4,23 @@
     border: solid 1px #c9bce5;
     background-color: #feebfb;
   }
-
 body {
-    background-color: rgb(189, 184, 222);
+    background-color: rgb(160, 154, 210);
   }
 h2 {
-    color: rgb(79, 89, 121);
+    color: rgb(101, 115, 159);
   }
 p {
     color: rgb(0, 0, 0);
   }
-
+  
 .text p {
   display: inline-block;
   max-width: 60%;
   margin: 3px;
   padding: 5px 10px;
   border-radius: 15px;
-  background-color: darkgray;
+  background-color: rgb(255, 255, 255);
   color: white;
   font-family: sans-serif;
   font-size: 0.8em;
