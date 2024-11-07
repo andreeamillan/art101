@@ -1,0 +1,17 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #bc9393;
+    background-color: #feebfb;
+  }
+
+body {
+    background-color: rgb(195, 189, 237);
+  }
+h2 {
+    color: rgb(50, 64, 108);
+  }
+p {
+    color: rgb(0, 0, 0);
+  }
+
