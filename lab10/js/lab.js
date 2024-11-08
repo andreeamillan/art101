@@ -25,13 +25,21 @@ $("#make-convo").click(function(){
     let newText = generateRandomText();
     console.log("Click");
 
-    $("#output").append('<div class="text"><o>' + newText + '</p></div');
-});
+    let randomNumber = Math.floor(Math.random() * 2) + 1
+    
+    if (randomNumber == 1) {
+        //if condition is true
+        $("#output").append('<div class="text"><p>' + newText + '</p></div');
 
-// click listener for submit button
-$("#submitButton").click(function(){
-    //userInput value
-    var input = $("#userInput").val();
-//appending new div to our output div
-    $("#output").append('<div class="text"><p>' + input + '</p></div>');
-});
+    } else {
+    // if condition is false
+    $("#output").append('<div class="text2"><p>' + newText + '</p></div>');
+    }
+
+    // new div to output div
+    setTimeout(() => {
+        $('.text').remove();
+        $('.text2').remove();
+    }, 10000);
+}); 
+
