@@ -7,39 +7,21 @@
    Date: November 10, 2024
 */
 
-function generateRandomText() {
-    const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
-    const min = 3;
-    const max = 200;
-    const randLen = Math.floor(Math.random() * (max - min + 1)) + min;
-    // Get a random starting index to slice the Lorem Ipsum text
-    const randStart = Math.floor(Math.random() * (text.length - randLen + 1));
-    // Generate the random Lorem Ipsum-like text
-    return text.slice(randStart, randStart + randLen);
-  }
+// Sorts the characters of a string in alphabetical order.
+function sortString(inputString) {
+    // We have to convert our string to an array and back again to sort it
+    return inputString.split('').sort().join('');
+}
 
-//event listener for button
-$("#make-convo").click(function(){
+// click listener for button
+$("#submit").click(function(){
+});
 
-    //acquiring new fake dialogue
-    let newText = generateRandomText();
-    console.log("Click");
+// get value of input field
+const userName = $("#user-name").val();
 
-    let randomNumber = Math.floor(Math.random() * 2) + 1
-    
-    if (randomNumber == 1) {
-        //if condition is true
-        $("#output").append('<div class="text"><p>' + newText + '</p></div');
+// now let's sort it
+userNameSorted = sortString(userName);
 
-    } else {
-    // if condition is false
-    $("#output").append('<div class="text2"><p>' + newText + '</p></div>');
-    }
-
-    // new div to output div
-    setTimeout(() => {
-        $('.text').remove();
-        $('.text2').remove();
-    }, 10000);
-}); 
-
+// append a new div to our output div
+$("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
