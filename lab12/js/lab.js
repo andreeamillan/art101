@@ -29,15 +29,11 @@ function sortingHat(str)  {
 
 //creating button / click listener 
 $("#button").click(function(){
-  var name = $("#input").val()
+  let name = $("#input").val();
   console.log(name);
-  var nameLength = name.length;
-  console.log(nameLength);
-  var house = getHouse(nameLength);
-  console.log(house);
 
-  let newText = sortingHat();
-  newText = "<p>The Sorting Hat has sorted you into " + house + "</p>";
+  let house = sortingHat(name);
+  console.log(house);
 
   $("#output").html("<h1>" + house + "</h1>");
 });
