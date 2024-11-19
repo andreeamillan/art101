@@ -32,11 +32,12 @@ function fizzbuzz(){
    }
 
    // Appending every result to the output with their original number // Cred: ChatGPT
-    fizzle += `<div>${i}${result ? ` ${result}` : ""}</div>`;               
+   fizzle += `<div class="${output}">${i}${result ? ` ${result}` : ""}</div>`;           
   
   }
     //final string 
   $("output").html(fizzle);
+  console.log(fizzle);
 }
 
    //event listener
