@@ -36,7 +36,7 @@ function fizzbuzz(){
   
   }
     //final string 
-  $("output").html(fizzle);
+  $("#output").html(fizzle);
   console.log(fizzle);
 }
 

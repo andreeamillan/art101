@@ -14,7 +14,7 @@ h1 {
   font-size: 300%;
 }
 
-output {
+#output {
   display: block;
   margin-top: 20px;
   padding: 10px;
@@ -25,7 +25,7 @@ output {
 }
 
 /* Style each result div */
-output div {
+#output div {
   padding: 8px;
   border: 1px solid #ddd;
   margin: 5px 0;
