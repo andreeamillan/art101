@@ -1,0 +1,73 @@
+
+body {
+  background-color: #8787ae;
+}
+
+h1,h2,h3 {
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+h1 {
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  font-size: 300%;
+}
+
+output {
+  display: block;
+  margin-top: 20px;
+  padding: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Style each result div */
+output div {
+  padding: 8px;
+  border: 1px solid #ddd;
+  margin: 5px 0;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Style for the different FizzBuzz results */
+.Fizz {
+  color: #ff6347;  /* Tomato */
+  font-weight: bold;
+}
+.Buzz {
+  color: #1e90ff;  /* Dodger Blue */
+  font-weight: bold;
+}
+.Boom {
+  color: #ffcc00;  /* Gold */
+  font-weight: bold;
+}
+.FizzBuzz {
+  color: #32cd32;  /* Lime Green */
+  font-weight: bold;
+}
+.FizzBoom {
+  color: #8a2be2;  /* Blue Violet */
+  font-weight: bold;
+}
+.BuzzBoom {
+  color: #ffa500;  /* Orange */
+  font-weight: bold;
+}
+.FizzBuzzBoom {
+  color: #d2691e;  /* Chocolate */
+  font-weight: bold;
+}
+
+.minor-section {
+  padding: 20px;
+  margin-bottom: 30px;
+  border: solid 5px #ffffff;
+  background-color: #ceddf0;
+}
+
