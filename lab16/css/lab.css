@@ -1,0 +1,26 @@
+
+body {
+  background-color: #8787ae;
+}
+
+h1,h2,h3 {
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+h1 {
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  font-size: 300%;
+}
+
+.minor-section {
+  padding: 20px;
+  margin-bottom: 30px;
+  border: solid 5px #ffffff;
+  background-color: #ceddf0;
+}
+
+  #output {
+    width: 100%;
+  }
